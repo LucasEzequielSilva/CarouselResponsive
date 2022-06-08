@@ -22,7 +22,7 @@
 /*CONTENEDOR DE CARDS*/
 .sc-gzVnrw {
   background-color: red;
-  display: flex;
+  display: flex!important;
   min-width: 100%;
   height: 50vh !important;
   justify-content: center;

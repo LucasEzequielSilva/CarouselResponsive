@@ -37,7 +37,7 @@ const Gallery = () => {
       }
   ];
   return (
-    <Carousel id="carousel-parent"cols={2} rows={2} gap={5} loop>
+    <Carousel id="carousel-parent"cols={4} rows={1} gap={5} loop>
       { ObjetArray.map(arr=> 
         <Carousel.Item className="carousel-child">
           <img width="100%" src={process.env.PUBLIC_URL + `${arr.img}`} alt='coso'/>
