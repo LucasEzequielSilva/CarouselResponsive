@@ -14,9 +14,12 @@
 .sc-bZQynM {
   background-color: white;
   display: flex;
-  min-width: 1rem;
+  justify-content:flex-start;
+  align-items: center;
+  min-width:100%;
   min-height: 1rem;
   border-radius: 1rem;
+  padding: 0!important;
 }
 
 /*CONTENEDOR DE CARDS*/
